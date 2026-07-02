@@ -1,0 +1,8 @@
+{
+  "name": "discord-bot-root",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node discord-bot/run-bots.js"
+  }
+}
