@@ -1,0 +1,9 @@
+{
+  "name": "discordbot-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "start": "node run-bots.js"
+  }
+}

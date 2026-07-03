@@ -1,0 +1,8 @@
+{
+  "name": "discord-bot-main-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm --prefix discord-bot-main start"
+  }
+}
