@@ -1,0 +1,25 @@
+{
+  "bots": [
+    {
+      "name": "AI-Discord",
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": "AI discord",
+      "enabled": true
+    },
+    {
+      "name": "FishFarm",
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": "fishfarm",
+      "enabled": true
+    },
+    {
+      "name": "Mng-Discord",
+      "command": "node",
+      "args": ["index.js"],
+      "cwd": "mng discord",
+      "enabled": true
+    }
+  ]
+}

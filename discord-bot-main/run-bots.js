@@ -225,3 +225,19 @@ for (const child of children) {
 
 process.on('SIGINT', () => shutdown('SIGINT'));
 process.on('SIGTERM', () => shutdown('SIGTERM'));
+
+
+// ==========================================
+// ĐOẠN CODE BỔ SUNG ĐỂ CHẠY TRÊN RENDER
+// ==========================================
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('All bots are running smoothly!\n');
+});
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`[System] HTTP Server gia lap dang chay tren port ${PORT}`);
+});
